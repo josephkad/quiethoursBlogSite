@@ -18,7 +18,7 @@ const Content = () => {
     <div className='mt-20'>
         <Container>
             <div className='flex flex-col gap-4'>
-                <h1 className='text-4xl font-semibold'>{blog.title}</h1>
+                <h1 className='lg:text-4xl text-xl font-semibold'>{blog.title}</h1>
 
                 <div className='flex w-full justify-between text-muted-foreground'>
                     <p>{blog.category}</p>
