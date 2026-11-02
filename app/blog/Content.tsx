@@ -15,7 +15,7 @@ const Content = () => {
     }, [])
     if (!blog) return
   return (
-    <div>
+    <div className='mt-20'>
         <Container>
             <div className='flex flex-col gap-4'>
                 <h1 className='text-4xl font-semibold'>{blog.title}</h1>

@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <Container>
-        <div className='flex justify-between bg-accent/20 rounded-xl shadow-sm p-20 my-4 hover:scale-101 hoverEffect relative overflow-hidden'>
+        <div className='flex justify-between bg-accent/20 rounded-xl shadow-sm p-20 my-4 hover:scale-101 hoverEffect relative overflow-hidden mt-20'>
             <h2 className='text-3xl font-semibold text-accent-foreground'>Stories and thoughts from <br />the end of the day.</h2>
             <img  src={clouds.src} className='w-80 h-80 absolute right-50 top-0 opacity-50' />
         </div>
